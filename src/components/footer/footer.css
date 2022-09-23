@@ -1,0 +1,32 @@
+
+/* footer */
+.footer{
+    background: var(--dark);
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+  .footer_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 10%;
+  }
+  .footer_items{
+    display: flex;
+    width: 50%;
+  }
+  .footer_item{
+    color: #e1e1e1;
+    text-decoration: none;
+    width: 8em;
+  }
+  .copy_right{
+    display: flex;
+    justify-content: flex-end;
+    /* background: red; */
+    width: 50%;
+  } 
+  .copy_right p{
+    color: #e1e1e1;
+  }
