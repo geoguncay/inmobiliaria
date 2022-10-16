@@ -1,16 +1,21 @@
-import Nosotros from "../assets/img/nosotros.jpg";
-import Seguridad from "../assets/img/icono1.svg";
+import Nosotros from '../../assets/img/nosotros.jpg'
+import Seguridad from "../../assets/img/icono1.svg";
+import Precio from "../../assets/img/icono2.svg";
+import Tiempo from "../../assets/img/icono3.svg";
+import Footer from '../../components/footer/Footer';
+import NavMenu from '../../components/navbar/NavMenu';
 
 function our() {
-  return (
+  return (  
     <div>
       <div className="container">
+        <NavMenu/>
         <div className="container_title">
           <h1 className="fw_300">Conoce sobre nosotros </h1>
         </div>
         <div className="inside_container">
           <div className="img_our">
-            <img src="" alt="" />
+            <img src={Nosotros} alt="" />
           </div>
           <div className="text_our">
             <h2>Somos una empresa con 25 anios de experiencia</h2>
@@ -41,7 +46,7 @@ function our() {
         </div>
         <div className=" more_our ">
           <div className="box_child">
-            <img src="" alt="Seguridad" />
+            <img src={Seguridad} alt="Seguridad" />
             <h3>Seguridad</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -51,7 +56,7 @@ function our() {
             </p>
           </div>
           <div className="box_child">
-            <img src="/img/icono2.svg" alt="Mejor Precio" />
+            <img src={Precio} alt="Mejor Precio" />
             <h3>Mejor Precio</h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
@@ -61,7 +66,7 @@ function our() {
             </p>
           </div>
           <div className="box_child">
-            <img src="/img/icono3.svg" alt="A tiempo" />
+            <img src={Tiempo} alt="A tiempo" />
             <h3>A tiempo </h3>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -72,6 +77,7 @@ function our() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

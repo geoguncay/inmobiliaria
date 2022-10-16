@@ -7,6 +7,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 *, *:before, *:after {
   box-sizing: inherit;
@@ -14,19 +16,23 @@
 body{
   font-family: 'Lato', sans-serif;
   font-size: 1.3rem; 
-
+  text-decoration: none;
+  list-style: none;
 }
 
-/* header */
+::-webkit-scrollbar{
+  display: none;
+}
 
-/* our */
-.container{
-  /* border: saddlebrown solid 1px; */
-  align-items: center;
+.container {
   display: flex;
   flex-direction: column;
   margin: 0 10%;
+  padding-top: 2rem;
 }
+
+/* our */
+
 .container_title{
   background: #fff;
   height: 100px;
