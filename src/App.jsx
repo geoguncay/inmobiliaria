@@ -11,7 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home/>} />
+          <Route path={'inmobiliaria/'} index element={<Home/>} />
           <Route path='*' element={<Error/>}/>
           <Route path='/our' element={<Our/>}/>
           <Route path='/ads' element={<Ads/>}/>
@@ -19,7 +19,7 @@ function App() {
           <Route path='/blog' element={<Blog/>}/>
         </Routes>
       </BrowserRouter> 
-     </>
+    </>
   )
 }
 

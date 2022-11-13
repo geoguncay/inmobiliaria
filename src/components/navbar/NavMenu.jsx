@@ -7,7 +7,7 @@ const NavMenu = () => {
   return (
       <div className="nav_bar">
         <div className="logo_container">
-          <Link to={"/"}>
+          <Link to={"/inmobiliaria"}>
             <img src={logo} alt="" />
           </Link>
         </div>
@@ -28,7 +28,7 @@ export default NavMenu;
 const routes = [
   {
     id: 1,
-    to: '/',
+    to: '/inmobiliaria',
     text: 'Inicio'
   },
   {

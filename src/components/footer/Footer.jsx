@@ -1,7 +1,7 @@
 import './footer.css'
 export default function Footer() {
   return (
-    <footer className="footer">
+    <footer>
       <div className="footer_container">
         <div className="footer_items">
           <a href="" className="footer_item">

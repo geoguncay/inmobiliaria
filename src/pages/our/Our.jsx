@@ -4,6 +4,7 @@ import Precio from "../../assets/img/icono2.svg";
 import Tiempo from "../../assets/img/icono3.svg";
 import Footer from '../../components/footer/Footer';
 import NavMenu from '../../components/navbar/NavMenu';
+import './our.css'
 
 function our() {
   return (  
